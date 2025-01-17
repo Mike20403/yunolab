@@ -3,6 +3,7 @@ import Hero from "./components/hero/Hero";
 import Treatments from "./components/treatments/Treatments";
 import Testimonials from "./components/testimonials/Testimonials";
 import Footer from "./components/footer/Footer";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Concerns />
       <Testimonials />
       <Footer />
+      <SpeedInsights/>
     </div>
   );
 }
